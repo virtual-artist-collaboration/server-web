@@ -46,10 +46,10 @@ $returns = array_reverse($returns);
 <body>
     <nav class="navbar navbar-expand-md navbar-light">
         <div class="nav-header">
-            <a class="col-3" href="/list_music.php">HUMMIG CREATORS<br>song creators admin</a>
-            <a class="col-2" href="/list_music.php">Hummig一覧</a>
+            <a class="col-3" href="/list_music.php">HUMMNIG CREATORS<br>song creators admin</a>
+            <a class="col-2" href="/list_music.php">Hummnig一覧</a>
             <a class="col-4" href="javascript:void(0)"></a>
-            <a class="col-3" href="javascript:void(0)">まさやさんいらっしゃいませ</a>
+            <a class="col-3" href="javascript:void(0)">naturalclarさんいらっしゃいませ</a>
         </div>
     </nav>
     <div class="container">
@@ -61,7 +61,7 @@ $returns = array_reverse($returns);
             </div>
             <div class="card-body">
                 <div class="description"><?= $val['description'] ?></div>
-                <div class="user_name"><?= $val['user_name'] ?></div>
+                <div class="user_name">created by <?= $val['user_name'] ?></div>
             </div>
         </div>
     <?php endforeach; ?>
