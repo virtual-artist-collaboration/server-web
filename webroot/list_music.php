@@ -56,7 +56,7 @@ $returns = array_reverse($returns);
     <?php foreach ($returns as $val): ?>
         <div class="card">
             <div class="card-title">
-                <a class="title" href="<?= $val['url'] ?>"><?= $val['title'] ?></a>
+                <a class="title" href="<?= $val['url'] ?>"><img class="dl_icon" src="images/dl.png"><?= $val['title'] ?></a>
                 <?= $val['download_count'] ?> DL
             </div>
             <div class="card-body">

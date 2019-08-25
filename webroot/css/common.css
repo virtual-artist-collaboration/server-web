@@ -41,3 +41,12 @@
     padding: 0;
     padding-left: 15px;
 }
+
+.dl_icon {
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+.user_name {
+    margin-top: 10px;
+    font-size: 14px;
+}
