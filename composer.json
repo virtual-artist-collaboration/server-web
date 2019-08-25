@@ -1,0 +1,11 @@
+{
+	"config" : {
+		"platform" : {
+			"php" : "7.2.0"
+		}
+	},
+	"require" : {
+		"ktamas77/firebase-php" : "dev-master",
+		"google/cloud-storage": "^1.14"
+	}
+}
